@@ -1,7 +1,6 @@
-if status --is-login
-	if test -z "$DISPLAY"
-		exec startx
-	end
+if status is-interactive
+    # Commands to run in interactive sessions can go here
 end
 
-set fish_greeting
+# Created by `pipx` on 2025-05-17 01:49:33
+set PATH $PATH /home/bailey/.local/bin
